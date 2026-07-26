@@ -1,7 +1,22 @@
 aid: dexory
 name: Dexory
-description: 'Dexory is a company surfaced as a portfolio company of atomico and added to the API Evangelist
-  network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Dexory is a UK-based warehouse intelligence and robotics company whose
+  DexoryView platform pairs fleets of autonomous mobile scanning robots with
+  physical AI to deliver real-time "ground truth" visibility across warehouses
+  and distribution centers. The robots autonomously scan more than 10,000 pallet
+  locations per hour and up to 18 meters of racking height, building a live
+  digital twin that feeds AI-driven analytics for inventory accuracy, space and
+  slotting optimization, damage/compliance detection, and operational
+  performance. DexoryView is organized into modules (Integrity for stock
+  accuracy and automated cycle counts, Optimise for space and productivity
+  analytics, and Adapt for real-time operational response) and connects into
+  existing warehouse and ERP systems such as SAP EWM, Manhattan, Blue Yonder,
+  and Körber through pre-built connectors. Dexory serves 3PL logistics,
+  manufacturing, food & beverage, retail, pharma, and air cargo operators.
+  Added to the API Evangelist network from Atomico's portfolio and enriched via
+  the pipeline; Dexory does not currently publish a public developer portal or
+  OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/dexory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +24,32 @@ x-backed-by:
 - atomico
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/672df24a07935ada864724fb/6752b8af9edc014ecbf7d77e_Dexory_logo_white_footer.png
 tags:
 - Company
 - Robotics
+- Warehouse
+- Logistics
+- Supply Chain
+- Inventory
+- Warehouse Automation
+- Digital Twin
+- Physical AI
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +59,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.dexory.com
+- type: Blog
+  url: https://www.dexory.com/insights
+- type: PrivacyPolicy
+  url: https://www.dexory.com/privacy-policy
+- type: VulnerabilityDisclosure
+  url: security/dexory-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.dexory.com/security-disclosure-policy
+- type: DomainSecurity
+  url: security/dexory-domain-security.yml
+- type: LLMsTxt
+  url: llms/dexory-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

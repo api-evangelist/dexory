@@ -1,0 +1,23 @@
+# Dexory
+
+> Dexory is a UK-based warehouse intelligence and robotics company whose DexoryView platform pairs autonomous mobile scanning robots with physical AI to deliver real-time "ground truth" visibility across warehouses and distribution centers. Its robots scan over 10,000 pallet locations per hour up to 18m of racking height, building a live digital twin that drives inventory accuracy, space optimization, and operational analytics.
+
+This is an API Evangelist network company profile. Dexory does not publish a public developer portal or OpenAPI at this time; the DexoryView platform exposes data through pre-built connectors and integrations into warehouse/ERP systems (SAP EWM, Manhattan, Blue Yonder, Körber) rather than a documented public API.
+
+## Company
+- [Website](https://www.dexory.com): Dexory warehouse intelligence platform home
+- [Solutions / DexoryView](https://www.dexory.com/solutions): Platform modules (Integrity, Optimise, Adapt) and robotics
+- [Why Dexory](https://www.dexory.com/why-dexory): Positioning and value
+- [Dexory AI](https://www.dexory.com/dexory-ai): AI-led analysis of stock, space, and performance
+- [About Us](https://www.dexory.com/about-us): Company background
+
+## Docs
+- [Insights / Blog](https://www.dexory.com/insights): Articles on warehouse automation and robotics
+- [Book a Demo](https://www.dexory.com/book-a-demo): Sales/demo request
+
+## Security
+- [Security Disclosure Policy](https://www.dexory.com/security-disclosure-policy): Responsible vulnerability disclosure (security@dexory.com)
+- [Privacy Policy](https://www.dexory.com/privacy-policy): Privacy policy
+
+## Specs
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/dexory/refs/heads/main/apis.yml): API Evangelist network profile for Dexory
